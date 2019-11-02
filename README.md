@@ -70,12 +70,21 @@ may leave existing group
 # Commands
 
 create group: /group create <groupname>
+  
 leave group: /group leave <groupname>
+  
 send text to group: /group send text <groupname> <message>
+  
 send binary message: /group send file <groupname> <sourcefilePath>
+  
 invite user: /group user invite <groupname> <targetusername>
+  
 remove user: /group user remove <groupname> <targetusername>
+  
 mute user: /group user mute <groupname> <targetusername> <timeinseconds>
+  
 unmute user: /group user unmute <groupname> <targetusername>
+  
 promote to co-admin: /group coadmin add <groupname> <targetusername>
+  
 demote co-admin: /group coadmin remove <groupname> <targetusername>
